@@ -8,7 +8,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.*;
 import org.jsoup.select.Elements;
 
-public class FavouriteBlogArticleFinderGoogle {
+public class FavouriteBlogRandomArticleFinder {
 	static String favouriteBlogUrl = "http://kobietydokodu.pl/";
 	static String query = "site:" + favouriteBlogUrl;
 	static Random generator = new Random();
